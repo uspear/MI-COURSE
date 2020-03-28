@@ -1,0 +1,104 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/phone-login/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "米猪云课"
+      }
+    },
+    {
+      "path": "pages/course/index",
+      "style": {
+        "navigationBarTitleText": "课程"
+      }
+    },
+    {
+      "path": "pages/search/index"
+    },
+    {
+      "path": "pages/course-detail/index",
+      "style": {
+        "navigationBarTitleText": "课程详情"
+      }
+    },
+    {
+      "path": "pages/play/index",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/pay/index",
+      "style": {
+        "navigationBarTitleText": "支付"
+      }
+    },
+    {
+      "path": "pages/study/index",
+      "style": {
+        "navigationBarTitleText": "学习进度"
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#ff8d43"
+      }
+    }
+
+
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "米猪云课堂",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff9a29",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tabs/icon_home@2x.png",
+        "selectedIconPath": "static/tabs/icon_home_selected@2x.png"
+      },
+      {
+        "pagePath": "pages/course/index",
+        "text": "课程",
+        "iconPath": "static/tabs/icon_course@2x.png",
+        "selectedIconPath": "static/tabs/icon_course_selected@2x.png"
+      },
+      {
+        "pagePath": "pages/study/index",
+        "text": "学习",
+        "iconPath": "static/tabs/icon_study@2x.png",
+        "selectedIconPath": "static/tabs/icon_study_selected@2x.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/tabs/icon_my@2x.png",
+        "selectedIconPath": "static/tabs/icon_my_selected@2x.png"
+      }
+    ]
+  }
+}
