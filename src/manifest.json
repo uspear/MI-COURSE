@@ -1,5 +1,5 @@
 {
-    "name": "uniapp-mushroom-online",
+    "name": "MI-COURSE",
     "appid": "",
     "description": "",
     "versionName": "1.0.0",
@@ -49,7 +49,7 @@
     },
     "mp-weixin": { /* 小程序特有相关 */
         "usingComponents":true,
-        "appid": "wx65b8c277b65e31ef",
+        "appid": "个人APPID",
         "setting" : {
         	"urlCheck" : false
         }
