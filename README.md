@@ -1,4 +1,4 @@
-# uniapp-mushroom-online
+# MI-COURSE
 
 ## Project setup
 ```
